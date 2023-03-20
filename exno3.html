@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="st.css">
+    <script src="script.js" defer></script>
+    <title>Form Validation</title>
+</head>
+
+<body>
+
+  <body style="background-color: thistle;">
+    <div class="container">
+        <form id="form" class="form">
+            <h2>Course Resgistration Form</h2>
+
+            <div class="form-control">
+                <label for="Username">Username</label>
+                <input type="text" id="username" placeholder="Enter Username">
+                <small></small>
+            </div>
+
+            <div class="form-control">
+                <label for="Email">Email</label>
+                <input type="email" id="email" placeholder="Enter Email ID">
+                <small></small>
+            </div>
+
+            <div class="form-control">
+                <label for="Password">Password</label>
+                <input type="password" id="password1" placeholder="Enter Password">
+                <p id='msgplace'></p>
+                <small></small>
+            </div>
+
+            <div class="form-control">
+                <label for="CPassword">Confirm Password</label>
+                <input type="password" id="password2" placeholder="Re-enter Password">
+                <small></small>
+            </div>
+             <div class="form-control">
+                <label for="FisrtName">FirstName</label>
+                <input type="text" id="firstname" placeholder="Enter FirstName">
+                <small></small>
+            </div>
+            <div class="form-control">
+                <label for="LastName">LastName</label>
+                <input type="text" id="lastname" placeholder="Enter LastName">
+                <small></small>
+            </div>
+            <div class="form-control">
+                <label for="gender">Gender:</label>
+                <input type="radio" id="male" name="ma" value="male">
+                <label for="male">Male</label>
+                <input type="radio" id="female" name="ma" value="male">
+                <label for="fem">Female</label>
+                 <small></small>
+             </div>
+              <div class="form-group">
+                <label for="Phonenum">Phone Number : </label>
+                <input type="number" id="phonenum"  placeholder="phonenumber" id = "phonenumber" autocomplete="off"><br><br>
+             <small></small>
+            </div>
+            <div class="form-group">
+          <label for="birthday">Date of Birth:</label>
+          <input type="date" id="birthday" name="birthday"><br><br>
+            <small></small>
+            </div>
+          <div class="form-control">
+                <label for="Age">Age</label>
+                <input type="number" id="age" placeholder="Enter your Age">
+                <small></small>
+            </div>
+
+         <div class="form-group">
+         <label for="address">Address:</label>
+        <textarea cols="50" rows="5" value="address">
+                </textarea>          
+          <small></small>
+            </div>
+         <div class="form-control">
+                <label for="school">SchoolName</label>
+                <input type="text" id="age" placeholder="Enter schoolname">
+                <small></small>
+            </div>
+           <div class="form-control">
+                <label for="smark">SSLC Percentage</label>
+                <input type="number" id="age" placeholder="Enter SSLC percentage">
+                <small></small>
+            </div>
+            <div class="form-control">
+                <label for="hmark">HSC Percentage</label>
+                <input type="number" id="age" placeholder="Enter HSC percentage">
+                <small></small>
+            </div>
+                       
+            <div class="form-control">
+                <label for="cname">College Name</label>
+                <input type="text" id="cname" placeholder="Enter Collegename">
+                <small></small>
+            </div>
+<div class="control-group">
+<label for="program" class="control-label">What program are you planning to enroll with?</label><br><br>
+
+<input type="checkbox" name="dec">Continuing Professional Development </input> <br><br>
+  <input type="checkbox" name="dec">Short Courses </input> <br><br>
+<input type="checkbox" name="dec">Skills Trianing </input> <br><br>
+<input type="checkbox" name="dec">Bachelor's Degree</input> <br><br>
+<input type="checkbox" name="dec">Master and Doctorate </input> <br><br>
+<input type="checkbox" name="dec">Corporate Partnership </input> <br><br>
+</div>
+
+            <div class="control-group">
+<label for="course" class="control label">Courses available in this college</label><br><br>
+<div class="controls">
+<select name="select course" id="select course">
+<option value="">select</option>
+<option value="">---</option>
+<option value="BE">BE</option>
+<option value="BTECH">BTECH</option>
+<option value="MBA">MBA</option>
+<option value="Polytechnic">Poltechnic</option>
+<option value="BSc">BSc</option>
+<option value="MSc">MSc</option>
+</select><br><br>
+</div>
+<div class="control-group">
+<label for="Dept" class="control-label">Department</label><br><br>
+<div class="controls">
+<select name="Dept"id="Department">
+<option value="">Select</option>
+<option value="">---</option>
+<option value="Automobile">Automobile</option>
+<option value="Bio-Medical">Bio-Medical</option>
+<option value="Bio-technology">Bio-technology</option>
+<option value="Chemical">Chemical</option>
+<option value="AIDS">AIDS</option>
+<option value="AIML">AIML</option>
+<option value="Civil">Civil</option>
+<option value="CSD">CSD</option>
+<option value="ECE">ECE</option>
+<option value="EEE">EEE</option>
+<option value="EIE">EIE</option>
+<option value="Food technology">Food technology</option>
+<option value="Information Technology">Information Technology</option>
+<option value="Mechanical">Mechanical</option>
+<option value="Mechatronics">Mechatronics</option>
+<option value="Others">Other Arts Courses</option>
+</select><br><br>
+ </div>      
+
+            <button id="btn" type="submit">Submit</button>
+            <button id="btn2" type="reset">Reset </button>
+        </form>
+    </div>
+   
+</body>
+</html>
